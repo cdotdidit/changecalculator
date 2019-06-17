@@ -3,9 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
+
+    <!-- <link href="style.css" rel="stylesheet"> -->
+  
   </head>
   <body>
     <!-- Write your markup here -->
+    
+    <h1>Change Calculator</h1>
+  
+    you owe: <input id="amount-due" type="number">
+    <div></div>
+    you paid: <input id="amount-received" type="number">
+    <div></div>
+    
+    <p id="dollars-output"></p>
+    <p id="quarters-output"></p>
+    <p id="dimes-output"></p>
+    <p id="nickels-output"></p>
+    <p id="pennies-output"></p>
+    
+    <button onclick="handleClickEvent()" id="calculate-change">compute</button>
+
+
+
+    
+    <script src="main.js" charset="utf-8"></script>
 
     <!-- Don't forget to add your <script> tag here -->
 
