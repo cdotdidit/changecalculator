@@ -1,4 +1,4 @@
-let change = { // this is a placeholder that initializes the data coming in
+let change = { 
   totalChange : 0,
   quarters : 0,
   dimes : 0,
@@ -8,7 +8,7 @@ let change = { // this is a placeholder that initializes the data coming in
 };
 function calculateChange() {
   
-  console.log('Button was Clicked.')// makes sure that the button clicks
+  console.log('Button was Clicked.')
   let amountDue = document.getElementById('amount-due').value * 100; //taking the amount and multipling it by 100 so that it breaks down the value and doesnt become a floating value
   let amountReceived = document.getElementById('amount-received').value * 100;
   let result = (amountReceived) - (amountDue);
@@ -25,5 +25,3 @@ let changeP = Math.ceil(((result)-(change$ * 100)-(changeQ*25)-(changeD*10)-(cha
   document.getElementById('pennies-output').innerHTML = changeP;
 }
 document.getElementById("calculate-change").innerHTML = "Your change is: $" + result+ ".";
-//this uses methods instead of hard math
-//you are putting functions in a variable
