@@ -1,0 +1,1 @@
+This is a calculator that will give you the change you need in a transaction in dollars, quarters, dimes, nickels, and pennies.
